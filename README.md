@@ -10,4 +10,6 @@ command:
 nohup sudo rsync -raAXv / --exclude-from=/root/exclude-files.txt external/ &
 ```
 
-## psql nasexporter to remove host. 
+## psql nasexporter 
+
+this just dumps all from nas table for radius and transfers to remote db as well. Not general setup but this helps flow. Just service restart needed. 
