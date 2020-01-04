@@ -9,3 +9,5 @@ command:
 ```
 nohup sudo rsync -raAXv / --exclude-from=/root/exclude-files.txt external/ &
 ```
+
+## psql nasexporter to remove host. 
